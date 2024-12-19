@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+/*
 int main() {
 	int value{ 5 };
 
@@ -22,7 +22,15 @@ int main() {
 	cout << "The value is (decrementing) : " << value-- << endl;
 	cout << "The value is : " << value << endl;
 
+	cout << "=====Prefix increment and decrement=====" << endl;
+	value = 5;
+	cout << "The value is (++prefix) : " << ++value << endl;
+	cout << "The value is : " << value << endl << endl;
 
+	value = 5;
+	cout << "The value is (--prefix) : " << --value << endl;
+	cout << "The value is : " << value << endl;
 
 	return 0;
 }
+*/
