@@ -24,6 +24,11 @@ int main() {
 	cout << "a  || c : " << (a || c) << endl;
 	cout << "a  || b || c : " << (a || b || c) << endl << endl;
 
+	cout << "Basic NOT operations" << endl;
+	cout << "!a : " << !a << endl;
+	cout << "!b : " << !b << endl;
+	cout << "!c : " << !c << endl << endl;
+
 
 	return 0;
 }
