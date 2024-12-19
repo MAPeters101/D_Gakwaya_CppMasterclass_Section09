@@ -29,6 +29,9 @@ int main() {
 	cout << "!b : " << !b << endl;
 	cout << "!c : " << !c << endl << endl;
 
+	cout << "Combining logical operators" << endl;
+	cout << "(!(a && b) || c) : " << (!(a && b) || c) << endl;
+
 
 	return 0;
 }
