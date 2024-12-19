@@ -16,6 +16,9 @@ int main() {
 	cout << "Hello\n";
 	cout << "World\n";
 	cout << endl;
+	cout << "===============================" << endl << endl;
+
+	cout << "This is a nice message..." << endl << flush;
 
 	return 0;
 }
