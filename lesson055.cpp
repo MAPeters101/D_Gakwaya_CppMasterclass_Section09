@@ -131,6 +131,28 @@ int main() {
 	cout << "condition : " << condition << endl;
 	cout << "other_condition : " << other_condition << endl;
 	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
+
+	int pos_num{ 34 };
+	int neg_num{ -45 };
+
+	cout << "pos_num : " << pos_num << endl;
+	cout << "neg_num : " << neg_num << endl;
+	cout << endl;
+
+	cout << std::showpos;
+	cout << "pos_num : " << pos_num << endl;
+	cout << "neg_num : " << neg_num << endl;
+	cout << endl;
+
+	cout << std::noshowpos;
+	cout << "pos_num : " << pos_num << endl;
+	cout << "neg_num : " << neg_num << endl;
+	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
+
 
 
 	return 0;
