@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+/*
 int main() {
 	cout << "The range for short is from " << std::numeric_limits<short>::min() << " to "
 		<< std::numeric_limits<short>::max() << endl;
@@ -37,7 +39,12 @@ int main() {
 	cout << "The range (with lowest) for long double is from " << std::numeric_limits<long double>::lowest() << " to "
 		<< std::numeric_limits<long double>::max() << endl;
 
+	cout << "====================\n" << endl;
+
+	cout << "int is signed : " << std::numeric_limits<int>::is_signed << endl;
+	cout << "int digits : " << std::numeric_limits<int>::digits << endl;
+
 	return 0;
 }
-
+*/
 
