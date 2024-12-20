@@ -98,6 +98,23 @@ int main() {
 	cout << setw(10) << -123.45 << endl;
 	cout << endl;
 	cout << "===============================" << endl << endl;
+	col_width = 20;
+	col_width2 = 7;
+
+	cout << "Table with fill characters : " << endl;
+	cout << std::left;
+	cout << std::setfill('-');
+	cout << std::setw(col_width) << "Lastname" << std::setw(col_width) << "Firstname" << std::setw(col_width2) << "Age" << endl;
+	cout << std::setw(col_width) << "Daniel" << std::setw(col_width) << "Gray" << std::setw(col_width2) << "25" << endl;
+	cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Woods" << std::setw(col_width2) << "33" << endl;
+	cout << std::setw(col_width) << "Jordan" << std::setw(col_width) << "Parker" << std::setw(col_width2) << "45" << endl;
+	cout << std::setw(col_width) << "Joe" << std::setw(col_width) << "Ball" << std::setw(col_width2) << "21" << endl;
+	cout << std::setw(col_width) << "Josh" << std::setw(col_width) << "Carr" << std::setw(col_width2) << "27" << endl;
+	cout << std::setw(col_width) << "Izaiah" << std::setw(col_width) << "Robinson" << std::setw(col_width2) << "29" << endl;
+	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
+
 
 
 	return 0;
