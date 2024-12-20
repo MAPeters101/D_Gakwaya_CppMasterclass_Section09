@@ -184,6 +184,20 @@ int main() {
 	cout << endl;
 	cout << "===============================" << endl << endl;
 
+	pos_int = 717171;
+
+	cout << "pos_int (nouppercase : default) " << endl;
+	cout << "pos_int (dec) : " << std::dec << pos_int << endl;
+	cout << "pos_int (hex) : " << std::hex << pos_int << endl;
+	cout << "pos_int (oct) : " << std::oct << pos_int << endl;
+	cout << endl;
+
+	cout << "pos_int (uppercase) " << endl;
+	cout << std::uppercase;
+	cout << "pos_int (dec) : " << std::dec << pos_int << endl;
+	cout << "pos_int (hex) : " << std::hex << pos_int << endl;
+	cout << "pos_int (oct) : " << std::oct << pos_int << endl;
+	cout << endl;
 
 
 
