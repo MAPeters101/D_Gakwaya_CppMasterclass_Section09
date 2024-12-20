@@ -153,6 +153,39 @@ int main() {
 	cout << endl;
 	cout << "===============================" << endl << endl;
 
+	int pos_int{ 717171 };
+	int neg_int{ -47347 };
+	double double_var{ 498.32 };
+
+	cout << "default base format : " << endl;
+	cout << "pos_int : " << pos_int << endl;
+	cout << "neg_int : " << neg_int << endl;
+	cout << "double_var : " << double_var << endl;
+	cout << endl;
+
+	cout << "pos_int in different bases : " << endl;
+	cout << "pos_int (dec) : " << std::dec << pos_int << endl;
+	cout << "pos_int (hex) : " << std::hex << pos_int << endl;
+	cout << "pos_int (oct) : " << std::oct << pos_int << endl;
+	cout << endl;
+
+	cout << "neg_int in different bases : " << endl;
+	cout << "neg_int (dec) : " << std::dec << neg_int << endl;
+	cout << "neg_int (hex) : " << std::hex << neg_int << endl;
+	cout << "neg_int (oct) : " << std::oct << neg_int << endl;
+	cout << endl;
+
+
+	cout << "couble_var in different bases : " << endl;
+	cout << "double_var (dec) : " << std::dec << double_var << endl;
+	cout << "double_var (hex) : " << std::hex << double_var << endl;
+	cout << "double_var (oct) : " << std::oct << double_var << endl;
+	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
+
+
+
 
 
 	return 0;
