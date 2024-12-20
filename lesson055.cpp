@@ -115,6 +115,22 @@ int main() {
 	cout << endl;
 	cout << "===============================" << endl << endl;
 
+	bool condition{ true };
+	bool other_condition{ false };
+
+	cout << "condition : " << condition << endl;
+	cout << "other_condition : " << other_condition << endl;
+	cout << endl;
+
+	cout << std::boolalpha;
+	cout << "condition : " << condition << endl;
+	cout << "other_condition : " << other_condition << endl;
+	cout << endl;
+
+	cout << std::noboolalpha;
+	cout << "condition : " << condition << endl;
+	cout << "other_condition : " << other_condition << endl;
+	cout << endl;
 
 
 	return 0;
