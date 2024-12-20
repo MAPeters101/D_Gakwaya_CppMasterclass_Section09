@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+/*
 int main() {
 	double weight{ 7.7 };
 	cout << "Weight rounded to floor is : " << std::floor(weight) << endl;
@@ -31,8 +31,15 @@ int main() {
 	cout << "To get 10000, you'd need to elevate 10 to the power of : "
 		<< std::log10(10000) << endl;
 
+
+	cout << "The square root of 81 is : " << std::sqrt(81) << endl;
+
+	cout << "3.654 rounded to : " << std::round(3.654) << endl;
+	cout << "2.5 rounded to : " << std::round(2.5) << endl;
+	cout << "2.4 rounded to : " << std::round(2.4) << endl;
+
 	return 0;
 }
-
+*/
 
 
