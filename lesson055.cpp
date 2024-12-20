@@ -3,7 +3,7 @@
 
 using namespace std;
 
-
+/*
 int main() {
 	cout << "Hello";
 	cout << "World";
@@ -241,8 +241,31 @@ int main() {
 	cout << "a (precision(10)) : " << a << endl;
 	cout << std::setprecision(20);
 	cout << "a (precision(20)) : " << a << endl;
+	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
+
+	double d{ 34.1 };
+	double e{ 101.99 };
+	double f{ 12.0 };
+	int g{ 45 };
+
+	cout << endl;
+	cout << "noshowpoint (default) : " << endl;
+	cout << "d : " << d << endl;
+	cout << "e : " << e << endl;
+	cout << "f : " << f << endl;
+	cout << "g : " << g << endl;
+
+	cout << endl;
+	cout << "showpoint (default) : " << endl;
+	cout << std::showpoint;
+	cout << "d : " << d << endl;
+	cout << "e : " << e << endl;
+	cout << "f : " << f << endl;
+	cout << "g : " << g << endl;
 
 	return 0;
 }
-
+*/
 
