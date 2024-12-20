@@ -198,7 +198,39 @@ int main() {
 	cout << "pos_int (hex) : " << std::hex << pos_int << endl;
 	cout << "pos_int (oct) : " << std::oct << pos_int << endl;
 	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
 
+	double a{ 3.1415926535897932384626433832795 };
+	double b{ 2006.0 };
+	double c{ 1.34e-10 };
+
+	cout << "double values (default : use scientific where necessarty) : " << endl;
+	cout << "a : " << a << endl;
+	cout << "b : " << b << endl;
+	cout << "c : " << c << endl;
+	cout << endl;
+
+	cout << "double values (fixed) : " << endl;
+	cout << fixed;
+	cout << "a : " << a << endl;
+	cout << "b : " << b << endl;
+	cout << "c : " << c << endl;
+	cout << endl;
+
+	cout << "double values (scientific) : " << endl;
+	cout << scientific;
+	cout << "a : " << a << endl;
+	cout << "b : " << b << endl;
+	cout << "c : " << c << endl;
+	cout << endl;
+
+	cout << "double values (back to defaults) : " << endl;
+	cout.unsetf(std::ios::scientific | std::ios::fixed);
+	cout << "a : " << a << endl;
+	cout << "b : " << b << endl;
+	cout << "c : " << c << endl;
+	cout << endl;
 
 
 
