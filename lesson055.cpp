@@ -231,8 +231,16 @@ int main() {
 	cout << "b : " << b << endl;
 	cout << "c : " << c << endl;
 	cout << endl;
+	cout << endl;
+	cout << "===============================" << endl << endl;
 
+	a = 3.1415926535897932384626433832795;
 
+	cout << "a (default precision(6)) : " << a << endl;
+	cout << std::setprecision(10);
+	cout << "a (precision(10)) : " << a << endl;
+	cout << std::setprecision(20);
+	cout << "a (precision(20)) : " << a << endl;
 
 	return 0;
 }
